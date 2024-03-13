@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(images/background2.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 10%;
+    color: #fff;
+}
+.hero h3 {
+    margin-top: 15%;
+    font-weight: 400;
+    font-size: 30px;
+}
+.hero h1 {
+    margin-top: 30px;
+    font-size: 50px;
+}
+.hero p {
+    margin: 10px 0 50px;
+}
+form{
+    background: #fff;
+    display: flex;
+    width: fit-content;
+}
+form input {
+    border: 0;
+    outline: none;
+    padding: 10px 20px;
+    height: 70px;
+    width: 400px;
+    font-size: 16px;
+}
+form button {
+    background: rgb(4, 4, 104);
+    border: none;
+    outline: 0;
+    color: #fff;
+    height: 70px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 2%;
+    font-size: 20px;
+    transition: 0.5s;
+}
+form button:hover {
+  background: #867ad1;
+  color: black;
+}
+span {
+    margin-top: 10px;
+    color: #61b752;
+    display: block;
+}
